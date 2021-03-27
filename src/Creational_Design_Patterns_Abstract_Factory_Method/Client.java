@@ -1,6 +1,18 @@
-//FactorProducer class returns specific factory based on input string, and from that we can get specific objects made.
-//In this example, the client would need to know the type of objects that can be created from, in this example, action
-//movie factory, before the object can be created.
+/**
+ * Abstract factory provides interface for creating families of related or dependent
+ * objects wtihout specifying their concrete class
+ * - "factory of factories"
+ *
+ * When to use:
+ *
+ * - When dealing with multiple factories
+ *
+ * Example:
+ *
+ * - The client will get a factory from the FactoryProducer class by using string argument. That factory can now be used
+ *   to create specific ojects.
+ *
+ */
 
 package Creational_Design_Patterns_Abstract_Factory_Method;
 

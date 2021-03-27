@@ -1,12 +1,17 @@
-/*
-Singleton Implementation (Bill Pugh Approach)
-
-Benefits of this approach to implementing Singleton:
-
-1) Avoid instantiation until/unless client calls the getInstance method
-2) Thread safe
-
-*/
+/**
+ * Singleton Implementation (Bill Pugh Approach)
+ *
+ * Benefits of this approach:
+ *
+ * - Avoid instantiation until/unless client calls the getInstance method
+ * - Thread safe
+ *
+ * Example:
+ *
+ * - When call the get_captain method in MakeACaptain class, it will call the private inner class which will create an
+ *   instance of MakeACaptain class. The instance of MakeACaptain class that is final.
+ *
+ */
 
 package Creational_Design_Patterns_Singleton;
 

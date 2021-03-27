@@ -1,30 +1,33 @@
-/*
-
-Advantages:
-
-1) hides concrete product classes from client. Let client work with application-specific classes without mod
-
-2) Incorporate new concrete product class into a system by registering a prototype instance with client
-
-3) Let you define behavior through object composition, by specifying new values for object's variables, and
-   not defining new classes
-
-4) Let use define new "classes" without programming. Greatly reduce number of classes a system needs
-
-5) Reduces subclassing
-
-How it works:
-
-1) Create abstract class which define common parameters.
-
-2) Create classes that extends the abstract class and overrides the clone().
-
-3) Create a cashe that will will store basicCar objects in a hash map. It will return a clone object when
-   requested.
-
-4) The client will load the cashe and get basicCar object.
-
+/**
+ * Hides concrete product classes from client. Let client work with application-specific classes without mod
+ *
+ * Incorporate new concrete product class into a system by registering a prototype instance with client
+ *
+ * Let you define behavior through object composition, by specifying new values for object's variables, and
+ * not defining new classes
+ *
+ * Let use define new "classes" without programming. Greatly reduce number of classes a system needs
+ *
+ * Reduces subclassing
+ *
+ * Example:
+ *
+ * 1) An abstract class which define common parameters.
+ *
+ * 2) Create classes that extends the abstract class and overrides the clone() to provide clone if possible.
+ *
+ * 3) Create a cashe class that will do two things:
+ *    - create a cashe of objects in a hashtable (synchronized)
+ *    - It will a getter method that will return a clone of a cashed object based on string argrument
+ *
+ * 5) Methods of cashe class is public and static
+ *
+ * 6) The client will load the cashe and get basicCar object.
+ *
+ * 7) When clone object is retrieved, it must be casted to the correct object type.
+ *    - Subclasses extends abstract class and overrides clone()
  */
+
 
 package Creational_Design_Prototype;
 
