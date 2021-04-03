@@ -128,16 +128,14 @@ Open and run examples files in src folder.
 
 * Adapter vs Bridges:
  
- * Adapter: make unrelated classes work together, usually applies to systems after they have been designed
- * Bridge: applied is used up-front
+ 	* Adapter: make unrelated classes work together, usually applies to systems after they have been designed
+ 	* Bridge: applied is used up-front
 
 * Facade vs Adapter vs. Decorator:
  
- * Facade: simplify and unify large interface or complex set of interfaces, no new behaviours or responsibilities add.
- * 
- Adapter: make unrelated classes work together, usually applies to systems after they have been designed
- * 
-  Decorator: wraps an object to add new behaviours and responsibilities.
+ 	* Facade: simplify and unify large interface or complex set of interfaces, no new behaviours or responsibilities add.
+ 	* Adapter: make unrelated classes work together, usually applies to systems after they have been designed
+ 	* Decorator: wraps an object to add new behaviours and responsibilities.
  
 * Chain of Responsibility vs Command:
  * - Chain of Responsibility: forward a request along a chain of objects without hope that any one of the objects along will handle the request.
