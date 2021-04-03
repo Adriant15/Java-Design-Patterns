@@ -138,22 +138,21 @@ Open and run examples files in src folder.
  	* Decorator: wraps an object to add new behaviours and responsibilities.
  
 * Chain of Responsibility vs Command:
- * - Chain of Responsibility: forward a request along a chain of objects without hope that any one of the objects along will handle the request.
- * - Command: request forwarded to specific object to handle.
+	* Chain of Responsibility: forward a request along a chain of objects without hope that any one of the objects along will handle the request.
+	* Command: request forwarded to specific object to handle.
 
 * Strategy vs. State Pattern:
-
- * Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
- * State: alternative to putting lots of conditionals in your context. Encapsulate interchangeable behaviours and use delegation to decide which behaviour to use.
+	* Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
+	* State: alternative to putting lots of conditionals in your context. Encapsulate interchangeable behaviours and use delegation to decide which behaviour to use.
 
 * Strategy vs. Template Method:
 
- * Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
- * State: alternative to putting lots of conditionals in your context. Encapsulate interchangeable behaviors and use delegation to decide which behaviour to use.
+	* Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
+	* State: alternative to putting lots of conditionals in your context. Encapsulate interchangeable behaviors and use delegation to decide which behaviour to use.
 
-- Strategy vs Template Method:
- *  Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
- *  Template Method: Encapsulate algorithms by inheritance.
+* Strategy vs Template Method:
+	*  Strategy: subclasses decide how to implement steps in algorithm. strategy is passed as an argument to method and context object does not have any variable to store it.
+ 	*  Template Method: Encapsulate algorithms by inheritance.
 
 ## Source
 
