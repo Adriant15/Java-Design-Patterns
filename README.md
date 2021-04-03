@@ -112,7 +112,7 @@ Open and run examples files in src folder.
 		- The pattern allows the class for an object to apparently change at run-time.
 		- Each strategy is represented by one class.
 		- Object method will take in a strategy object along with one or more identical parameters which the strategy object will operate on.
-	* - Template Method
+	- Template Method
 		- The template method pattern is used to define the basic steps of an algorithm and allow the implementation of the individual steps to be changed.
 		- Template class contains abstract methods that subclasses will implement as well as final methods that are common to all subclasses.
 	* Visitor
