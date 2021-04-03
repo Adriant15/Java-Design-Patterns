@@ -23,7 +23,6 @@ public class PlayerFactory {
                 default:
                     System.out.println("Unreachable code!");
             }
-
             hm.put(type, p);
         }
         return p;

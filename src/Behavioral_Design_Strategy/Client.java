@@ -15,7 +15,7 @@
  *
  * - Strategy - subclasses decide how to implement steps in algorithm
  *
- * - State - alternative ot putting lots of conditionals in your context. Encapsulate interchangeable behaviors and use
+ * - State - alternative to putting lots of conditionals in your context. Encapsulate interchangeable behaviors and use
  *   delegation to decide which behavior to use.
  *
  * - 1 difference: state 'context' contains state as an instance variable, which is used to dictate implementation of tasks.

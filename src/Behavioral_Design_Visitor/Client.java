@@ -1,6 +1,6 @@
 /**
  * Represents an operation(method) to be performed on the elements of an object structure(collection, lists, etc)
- * - lets you define a new opation without chaing the classes of the elements on which it operates
+ * - lets you define a new operation without changing the classes of the elements on which it operates
  *
  * Add new functionalities to an existing object strucutre in such as way that the old structure remains unaffected by
  * these changes

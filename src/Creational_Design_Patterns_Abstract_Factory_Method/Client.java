@@ -1,6 +1,6 @@
 /**
- * Abstract factory provides interface for creating families of related or dependent
- * objects wtihout specifying their concrete class
+ * Abstract factory provides interface for creating families of related or dependent objects without specifying their
+ * concrete class
  * - "factory of factories"
  *
  * When to use:
@@ -10,7 +10,7 @@
  * Example:
  *
  * - The client will get a factory from the FactoryProducer class by using string argument. That factory can now be used
- *   to create specific ojects.
+ *   to create specific objects.
  *
  */
 

@@ -1,5 +1,8 @@
 /**
+ *
  * Singleton Implementation (Bill Pugh Approach)
+ *
+ * Create a single and only a single instance of an object
  *
  * Benefits of this approach:
  *
