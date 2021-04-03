@@ -107,7 +107,7 @@ Open and run examples files in src folder.
 		- The pattern allows the class for an object to apparently change at run-time.
 		* Each state represented by one class.
 		* Each state object is passed to the context object and the behaviours of the state object is used.
-	* - Strategy
+	- Strategy
 		- The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
 		- The pattern allows the class for an object to apparently change at run-time.
 		- Each strategy is represented by one class.
